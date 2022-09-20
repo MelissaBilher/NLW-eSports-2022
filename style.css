@@ -113,19 +113,7 @@ section p {
 /* animação */
 
 header  div{
-  animation: fromTop .7s .4s backwards;
-}
-
-@keyframes fromTop {
-  from {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-
-  to{
-    opacity: 1;
-    transform: translateY(0)
-  }
+  animation: fromTop .7s .2s backwards;
 }
 
 main section {
@@ -143,6 +131,19 @@ main section:nth-child(2) {
 main section:nth-child(3) {
   animation-delay: .8s;
 }
+
+@keyframes fromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0)
+  }
+}
+
 
 @keyframes fromBottom {
   from {
