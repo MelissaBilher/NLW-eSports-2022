@@ -114,6 +114,7 @@ section p {
 
 header  div{
   animation: fromTop .7s;
+  animation-delay: 1s;
 }
 
 @keyframes fromTop {
