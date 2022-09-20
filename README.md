@@ -8,7 +8,7 @@
 
 [Clique aqui para acessar](https://melissabilher.github.io/NLW-eSports-2022/)
 
-## 🛠  Tecnologias
+## 🛠 Tecnologias
 
 - HTML
 - CSS
